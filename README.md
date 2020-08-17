@@ -2,7 +2,7 @@
 
 # Summary 01:
 
-# Q.no.01: UI Screens Identification and Extraction from Mobile Programming Screencasts
+## Q.no.01: UI Screens Identification and Extraction from Mobile Programming Screencasts
 
 # TITLE :
 
@@ -10,19 +10,22 @@
 
 ## Who : author  Mohammad Alahmadi, Abdulkarim Khormi, Sonia Haiduc
 
-# Track: ICPC 2020 Research
+## Track: ICPC 2020 Research
 
-# Date :Mon 13 Jul 2020 15:12 - 15:24 at ICPC - Session 1: Tests Chair(s): Dario Di Nucci
+## Date :Mon 13 Jul 2020 15:12 - 15:24 at ICPC - Session 1: Tests Chair(s): Dario Di Nucci
 
-# Introduction and motivation 
+## Introduction and motivation 
 
 ## Smartphones are the most widely used devices nowadays and more than 2.5 million users used worldwide. There are most two popular app stores which are the apple app store and Google play store. There are millions of peoples using screencasting features. So it can be very useful a developers to find programming questions online in videos that are hosted by YouTube about programming. This is due to the hard part of YouTube, which hosted very limited information. 
 
 # Motivation: 
 
 ### In this paper. We take a step forward to look at this problem by localizing, extracting, and presenting most respective UI screens to the developer. It can be helpful to compare quickly by developers to see an overview of a video about apps developed screencasts programming about relevant to their information needs. We keep a deep eye on the UI of an app since it captures and provides the features and it in actions. Ours focused to explore UI overview and it’s based on deep convolution neural network(CNN) which has include features of images extractor and detectors of object UI screens to locate within the frames of a programming screencast. The UI screen is extracted and filtered only the unique UI screen is kept. And this approach integrated into the tool which is also available online for use. 
-Importance:
-This research is important for developing a new mobile app and focused on its features many developers find their QAs about mobile programming of screencasting materials on youtube, so the UI screencasting is better to understand deep mobile programming, video mining, mobile developers
+
+# Importance:
+
+## This research is important for developing a new mobile app and focused on its features many developers find their QAs about mobile programming of screencasting materials on youtube, so the UI screencasting is better to understand deep mobile programming, video mining, mobile developers
+
 # Methodology:
 
 ## We have a 10% fold cross-validation performed, we divide data into two sets of folds and trained, validate, and test the sets. While we have training 80% remaining set of the dataset. The testing and validation of each set 10% during training and ovoid for overfitting. Our training process is over 4,000 iterations until the network stopped and improving or validation loss stable. The first move just before for locating and extracting UI screens from Mobile programming screencasts, given that a UI overview of a video. It can allow developers to rapidly understand which the main features of an app give an explanation are in screencasts and decide if the video is relevant to their in order needs. An assessment based on two practical studies showing that the planned approach is not only perfect but also considered useful by developers. A freely available tool to implement our approach.
